@@ -1,0 +1,111 @@
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: auto;
+        margin-left: 10px;
+      }
+      .container {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+        width: 100%;
+      }
+      .list li,
+      a {
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+      .list li {
+        display: inline-block;
+        padding: 0px 5px;
+      }
+      .list li a {
+        transition: all 0.2s ease-in;
+      }
+      .list li a:hover {
+        display: block;
+        transform: scale(0.9);
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        border-top-color: rgb(241, 13, 13);
+        border-bottom-color: rgb(128, 236, 12);
+      }
+      .container2 {
+        padding-top: 25%;
+        background: url(https://wallpapercave.com/uwp/uwp3786082.webp) no-repeat
+          center center;
+        background-size: cover;
+        padding-bottom: 25%;
+      }
+      .teks {
+        margin-left: 20px;
+        color: white;
+        padding: 45px;
+        border-radius: 25%;
+      }
+      .container3 {
+        background-color: rgb(186, 180, 180);
+        padding-top: 5%;
+        text-align: center;
+      }
+      .border {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+      }
+      .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      .isi {
+        text-align: center;
+      }
+      .container4 {
+        padding: 5px;
+      }
+      .formulir,
+      .hasilJs {
+        width: 50%;
+      }
+      .formulir {
+        float: left;
+      }
+      .hasilJs {
+        float: right;
+      }
+      .subm {
+        width: 100%;
+        border-radius: 10%;
+        background-color: black;
+        color: white;
+      }
+      .subm:hover {
+        background-color: rgb(49, 17, 231);
+      }
+      .foot {
+        display: block;
+        clear: both;
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+      }
+      .foot .ft:hover {
+        color: rgb(239, 13, 13);
+      }
