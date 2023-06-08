@@ -4,9 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reiky</title>
 </head>
-<body>
-    
-</body>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <img
+        class="logo"
+        src="https://wallpapercave.com/uwp/uwp3786192.png"
+        alt="Logo"
+      />
+      <ul class="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Profile</a></li>
+        <li><a href="#">Portofolio</a></li>
+        <li><a href="#">Message Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Teks -->
+    <div class="container2">
+      <div class="teks">
+        <h3>Hi Reiky, Welcome To Website</h3>
+        <p>Ini adalah website latihan pertama</p>
+      </div>
+    </div>
+
+    <!-- Status -->
+    <div class="container3">
+      <h2>Layanan</h2>
+      <div class="border">
+        <div class="satu">
+          <img
+            class="image"
+            src="https://images.pexels.com/photos/2749481/pexels-photo-2749481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <p class="isi">Enggineer</p>
+        </div>
+        <div class="satu">
+          <img
+            class="image"
+            src="https://images.pexels.com/photos/2749481/pexels-photo-2749481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <p class="isi">Enggineer</p>
+        </div>
+        <div class="satu">
+          <img
+            class="image"
+            src="https://images.pexels.com/photos/2749481/pexels-photo-2749481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+          <p class="isi">Enggineer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- form -->
+    <div class="container4">
+      <div class="formulir">
+        <form action="" method="POST" onsubmit="kirim()">
+          <fieldset>
+            <legend>Message Us</legend>
+            <table border="0" width="100%">
+              <tr>
+                <td><label>Nama</label></td>
+                <td>:</td>
+                <td>
+                  <input
+                    type="text"
+                    name="nama"
+                    id="nama"
+                    placeholder="Nama lengkap..."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label>Tanggal Lahir</label></td>
+                <td>:</td>
+                <td>
+                  <input
+                    type="date"
+                    name="tgl"
+                    id="tgl"
+                    placeholder="Tanggal Lahir..."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label>Jenis kelamin</label></td>
+                <td>:</td>
+                <td>
+                  <label
+                    ><input
+                      type="radio"
+                      name="jenis_kelamin"
+                      id="gender"
+                      value="laki-laki"
+                    />
+                    Laki-laki</label
+                  >
+                  <label
+                    ><input
+                      type="radio"
+                      name="jenis_kelamin"
+                      id="gender"
+                      value="perempuan"
+                    />
+                    Perempuan</label
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><label>Pesan</label></td>
+                <td>:</td>
+                <td><textarea name="biografi" id="pesan"></textarea></td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <input type="submit" onclick="kirim()" value="kirim" />
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+      <div class="hasilJs">
+        <fieldset>
+          <legend>Hasil</legend>
+          <p id="tampilan"></p>
+        </fieldset>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="foot">
+      © 2022 Copyright :
+      <a class="ft" href="#">StartUs.com</a>
+    </div>
+  </body>
 </html>
